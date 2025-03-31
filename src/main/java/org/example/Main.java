@@ -12,6 +12,8 @@ public class Main {
         cont.add(5);
         System.out.println("Size of container: "+ cont.size());
         cont.printElements();
+        System.out.println("\n1st elem: "+cont.get(0));
+        cont.remove(0);
         System.out.println("1st elem: "+cont.get(0));
     }
 }

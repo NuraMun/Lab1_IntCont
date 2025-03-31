@@ -40,4 +40,7 @@ public class IntCont{
         System.arraycopy(elements, 0, newElements, 0, elements.length);
         elements = newElements;
     }
+    public void printElements(){
+        for(int i = 0; i < size(); i++) System.out.print(elements[i] + " ");
+    }
 }
